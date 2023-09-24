@@ -1,0 +1,109 @@
+.footer .main-img img {
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgb(18, 67, 181);
+  transition: 1s;
+}
+.footer .main-img img:hover {
+  transform: rotate(360deg);
+}
+
+.footer .main-img p {
+  color: white;
+}
+
+.footer .footer-icons img {
+  border-radius: 7px;
+  padding: 10px;
+  transition: 0.5s;
+}
+
+.footer .footer-icons img:hover {
+  transform: scale(1.2);
+  z-index: 1;
+  background-color: #0d0d32;
+  cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer .footer-text {
+  display: flex;
+}
+
+.img-icon {
+  margin-top: 135px;
+}
+
+/* ================== Edit footer text =======================  */
+
+.footer .footer-text .quik span {
+  color: red;
+  font-weight: bold;
+}
+
+.footer .footer-text .quik {
+  padding: 30px;
+  margin: 70px 70px;
+}
+
+.footer .footer-text .quik p {
+  color: white;
+  cursor: pointer;
+  transition: 0.9s;
+}
+
+.footer .footer-text .quik p:hover {
+  color: tomato;
+  transform: scale(1.2);
+  z-index: 1;
+}
+
+.lover-text {
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+.lover-text img {
+  border-radius: 50px;
+}
+
+/* =========== For Resposiveness ============= */
+
+@media screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer .main-img img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .footer .footer-text .quik {
+    margin: 10px 0;
+  }
+
+  .footer .footer-text .quik p {
+    font-size: 14px;
+  }
+
+  .img-icon {
+    margin-top: 10px;
+  }
+
+  .lover-text {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 420px) {
+  .footer-text {
+    display: flex;
+    flex-direction: column;
+  }
+}
