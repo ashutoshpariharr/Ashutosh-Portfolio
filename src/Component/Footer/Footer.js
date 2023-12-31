@@ -52,8 +52,8 @@ const Footer = () => {
               <p>About</p>
               <p>Portfolio</p>
               <p>Services</p>
-              <p>Blog</p>
-              <p>Contact</p>
+              <p>MERN</p>
+              <p>Ecommers</p>
             </div>
             <div className="rebor">
               <div className="quik">
